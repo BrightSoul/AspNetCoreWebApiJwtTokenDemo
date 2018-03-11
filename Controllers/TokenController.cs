@@ -13,7 +13,7 @@ namespace JwtTokenDemo.Controllers
     [Route("api/[controller]")]
     public class TokenController : Controller
     {
-        // GET api/Token
+        // POST api/Token
         [HttpPost]
         public IActionResult GetToken([FromBody] TokenRequest tokenRequest)
         {
